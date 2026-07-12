@@ -1,38 +1,41 @@
 
 1. Project Overview
+   This Project is based on microservice architechture, with name "Expense Tracker". The main purpose of this projcet is to track your daily spendings and keep a clear record of it so that you can plan your future expenses according to it .
 
-2. Motivation
+3. Motivation
+   The real motivation behind building this project is to create a finance related project in microservice architecture, so that I can learn about how to build scalable projects, how multiple services communicate to each other, how they send events to each other using kfka and how to introduce apigateway concept to the project so that thier is only one entrypoint of your project.
 
-3. Features
+5. Features
+   The main feature of this project is, it uses AI to process the expense message and automatically create a entry of expense in your dashboard.
 
-4. High Level Architecture
+6. High Level Architecture
 
-5. Services
+7. Services
    5.1 Auth Service
    5.2 User Service
    5.3 Expense Service
    5.4 DS Service
 
-6. API Gateway (Kong)
+8. API Gateway (Kong)
 
-7. JWT Authentication
+9. JWT Authentication
 
-8. Kafka Event Streaming
+10. Kafka Event Streaming
 
-9. Database
+11. Database
 
-10. Docker Deployment
+12. Docker Deployment
 
-11. API Documentation
+13. API Documentation
 
-12. Example Workflows
+14. Example Workflows
 
-13. Error Handling
+15. Error Handling
 
-14. Scalability
+16. Scalability
 
-15. Security
+17. Security
 
-16. Future Improvements
+18. Future Improvements
 
-17. Conclusion
+19. Conclusion
