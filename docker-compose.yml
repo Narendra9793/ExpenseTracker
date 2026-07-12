@@ -107,7 +107,7 @@ services:
     environment:
      KAFKA_HOST: kafka
      KAFKA_PORT: 9092
-     OPENAI_API_KEY: L92HyjYIS2qeiFJDLQi3Iy76WHdDceaU
+     OPENAI_API_KEY: ${OPENAI_API_KEY}
 
   kongservice:
     image: kong:3.8
