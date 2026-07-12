@@ -1,0 +1,86 @@
+_format_version: "3.0"
+_transform: true
+
+services:
+
+  # ============================
+  # Authentication Service
+  # Public APIs (No Authentication)
+  # ============================
+
+  - name: auth-service
+    url: http://authservice:9090
+
+    routes:
+      - name: auth-route
+        paths:
+          - /auth/v1
+
+        strip_path: false
+        preserve_host: false
+
+
+  # ============================
+  # User Service
+  # Protected APIs
+  # ============================
+
+  - name: user-service
+    url: http://userservice:8080
+
+    routes:
+      - name: user-route
+        paths:
+          - /user/v1
+
+        strip_path: false
+        preserve_host: false
+
+    plugins:
+      - name: custom-auth
+        config:
+          auth_service_url: http://authservice:9090/ping
+
+
+  # ============================
+  # Expense Service
+  # Protected APIs
+  # ============================
+
+  - name: expense-service
+    url: http://expenseservice:6060
+
+    routes:
+      - name: expense-route
+        paths:
+          - /expense/v1
+
+        strip_path: false
+        preserve_host: false
+
+    plugins:
+      - name: custom-auth
+        config:
+          auth_service_url: http://authservice:9090/ping
+
+
+  # ============================
+  # Data Science Service
+  # Protected APIs
+  # ============================
+
+  - name: ds-service
+    url: http://dsservice:7070
+
+    routes:
+      - name: ds-route
+        paths:
+          - /v1/ds
+
+        strip_path: false
+        preserve_host: false
+
+    plugins:
+      - name: custom-auth
+        config:
+          auth_service_url: http://authservice:9090/ping

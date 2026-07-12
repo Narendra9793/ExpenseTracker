@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: dsservice
+Version: 1.0
+Requires-Dist: Flask==3.1.3
+Requires-Dist: kafka-python==3.0.0
+Requires-Dist: langchain-core==1.4.7
+Requires-Dist: langchain-mistralai==1.1.5
+Requires-Dist: pydantic==2.13.4
+Requires-Dist: python-dotenv==1.2.2
+Dynamic: requires-dist

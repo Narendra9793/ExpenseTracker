@@ -1,0 +1,30 @@
+# Java
+**/build/
+**/.gradle/
+**/target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/dsenv/
+
+# Node
+**/node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
