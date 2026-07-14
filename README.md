@@ -36,9 +36,6 @@
     <br />
     <a href="https://github.com/user-attachments/assets/6f8f0e0e-6300-4014-87ab-8b6a29061d65">View Demo</a>
     &middot;
-    <a href="https://github.com/saspal02/expense-tracker-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    &middot;
-    <a href="https://github.com/saspal02/expense-tracker-app/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -128,7 +125,7 @@ Make sure you have the following tools and credentials:
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Navigate to expenseTrackerApp and make a .env file there
+3. Navigate to expenseTracker and make a .env file there
    ```sh
    MYSQL_USER=YOUR-USERNAME
    MYSQL_PASSWORD=YOUR_PASSWORD
