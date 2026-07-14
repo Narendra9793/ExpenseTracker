@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/saspal02/expense-tracker-app">
+  <a href="https://github.com/Narendra9793/ExpenseTracker">
     <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
@@ -31,10 +31,10 @@
   <p align="center">
     An AI expenseTracker app to track your expense without your manual managing.
     <br />
-    <a href="https://github.com/saspal02/expense-tracker-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Narendra9793/ExpenseTracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/user-attachments/assets/6f8f0e0e-6300-4014-87ab-8b6a29061d65">View Demo</a>
+    <!-- <a href="">View Demo</a> -->
     &middot;
   </p>
 </div>
