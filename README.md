@@ -59,9 +59,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -139,7 +136,7 @@ Make sure you have the following tools and credentials:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Navigate to expenseTrackerApp and up your containers to test it
+Navigate to expenseTracker and up your containers to test it
    ```sh
    docker compose up -d
    ```
@@ -150,18 +147,6 @@ Navigate to expenseTrackerApp and up your containers to test it
 
 
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Listen for incoming SMS and generate expense in the app automatically
-- [x] Add Logout feature
-- [ ] Add Additional UI
-- [ ] Add category level expenses
-- [ ] Deploy the project in AWS
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
