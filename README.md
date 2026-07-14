@@ -166,16 +166,3 @@ Navigate to expenseTrackerApp and up your containers to test it
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* [Mistral AI](https://mistral.ai/)
-* [Img Shields](https://shields.io)
-* [Gluestack-UI](https://gluestack.io/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
