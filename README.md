@@ -31,11 +31,13 @@
   <p align="center">
     An AI expenseTracker app to track your expense without your manual managing.
     <br />
+    Note:Although in this readme file, app working is discussed to give a idea of project but currently only backend is ready, frontend (App) is still not comleted yet.
+    <br />
+    <br />
     <a href="https://github.com/Narendra9793/ExpenseTracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="">View Demo</a> -->
-    &middot;
+    <!-- &middot; -->
   </p>
 </div>
 
