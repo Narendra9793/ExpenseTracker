@@ -28,3 +28,13 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+
+**/node_modules/
+
+**/build/
+**/.gradle/
+**/__pycache__/
+**/venv/
+**/dsenv/
+.env
