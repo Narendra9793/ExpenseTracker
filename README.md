@@ -104,7 +104,6 @@ With EaseExpense, managing your expenses becomes effortless and accurate, helpin
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Follow below instructions to setup the environment if you want to test in the frontend follow this [Link](https://github.com/saspal02/expense-tracker-rn)
 
 ### Prerequisites
 
@@ -145,7 +144,7 @@ Navigate to expenseTrackerApp and up your containers to test it
    docker compose up -d
    ```
 
-To test in the frontend, refer to this [Link](https://github.com/saspal02/expense-tracker-rn)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,16 +159,12 @@ To test in the frontend, refer to this [Link](https://github.com/saspal02/expens
 - [ ] Add category level expenses
 - [ ] Deploy the project in AWS
 
-See the [open issues](https://github.com/saspal02/expense-tracker-app/issues) for a full list of proposed features (and known issues).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTACT -->
-## Contact
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/saspal02)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saswat-pal/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
